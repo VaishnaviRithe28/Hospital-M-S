@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us - Hospital Management System</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Navbar -->
+  <header class="bg-white shadow">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-blue-600">HospitalMS</h1>
+      <nav class="space-x-6">
+        <a href="index.html" class="text-gray-700 hover:text-blue-600">Home</a>
+        <a href="about.html" class="text-gray-700 hover:text-blue-600">About Us</a>
+        <a href="services.html" class="text-gray-700 hover:text-blue-600">Services</a>
+        <a href="Contact.html" class="text-gray-700 hover:text-blue-600">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Contact Section -->
+  <section class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+      <h2 class="text-4xl font-bold text-center text-blue-700 mb-10">Contact Us</h2>
+      <div class="grid md:grid-cols-2 gap-10">
+        
+        <!-- Contact Form -->
+        <form class="bg-blue-50 p-8 rounded-lg shadow" action="#" method="POST">
+          <h3 class="text-2xl font-semibold mb-6 text-blue-600">Send a Message</h3>
+          <div class="mb-4">
+            <label class="block text-sm font-medium mb-1">Your Name</label>
+            <input type="text" name="name" required class="w-full px-4 py-2 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400" />
+          </div>
+          <div class="mb-4">
+            <label class="block text-sm font-medium mb-1">Email Address</label>
+            <input type="email" name="email" required class="w-full px-4 py-2 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400" />
+          </div>
+          <div class="mb-4">
+            <label class="block text-sm font-medium mb-1">Message</label>
+            <textarea name="message" rows="5" required class="w-full px-4 py-2 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400"></textarea>
+          </div>
+          <button type="submit" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">Send</button>
+        </form>
+
+        <!-- Contact Info -->
+        <div class="p-8 bg-gray-100 rounded-lg shadow">
+          <h3 class="text-2xl font-semibold text-blue-600 mb-6">Contact Information</h3>
+          <p class="text-gray-700 mb-4"><strong>Address:</strong> 123 Health Avenue, Wellness City, 456789</p>
+          <p class="text-gray-700 mb-4"><strong>Phone:</strong> +91 98765 43210</p>
+          <p class="text-gray-700 mb-4"><strong>Email:</strong> contact@hospitalms.com</p>
+          <p class="text-gray-700"><strong>Working Hours:</strong><br> Mon - Sat: 9:00 AM to 6:00 PM<br> Sunday: Closed</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-white shadow mt-10">
+    <div class="container mx-auto px-4 py-6 text-center text-gray-600">
+      © 2025 HospitalMS. All rights reserved.
+    </div>
+  </footer>
+
+</body>
+</html>
